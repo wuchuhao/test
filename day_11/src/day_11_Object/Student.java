@@ -1,7 +1,7 @@
 package day_11_Object;
 
 public class Student {
-	private int age;
+	private int age11;
 	private String name;
 
 	public Student() {
@@ -11,16 +11,16 @@ public class Student {
 
 	public Student(int age, String name) {
 		super();
-		this.age = age;
+		this.age11 = age;
 		this.name = name;
 	}
 
 	public int getAge() {
-		return age;
+		return age11;
 	}
 
 	public void setAge(int age) {
-		this.age = age;
+		this.age11 = age;
 	}
 
 	public String getName() {
